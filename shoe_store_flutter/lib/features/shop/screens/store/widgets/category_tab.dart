@@ -1,4 +1,3 @@
-
 import 'package:ecomm_store_app/common/widgets/brands/my_brand_showcase.dart';
 import 'package:ecomm_store_app/common/widgets/layouts/grid_layout.dart';
 import 'package:ecomm_store_app/common/widgets/products/product_cards/product_card_vertical.dart';
@@ -28,7 +27,7 @@ class MyCategoryTab extends StatelessWidget {
                   MyProductAssets.product12,
                 ],
               ),
-               MyBrandShowCase(
+              MyBrandShowCase(
                 images: [
                   MyProductAssets.product1,
                   MyProductAssets.product11,

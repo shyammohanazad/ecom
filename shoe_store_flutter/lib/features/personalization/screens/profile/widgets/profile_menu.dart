@@ -20,17 +20,32 @@ class MyProfileMenu extends StatelessWidget {
     return GestureDetector(
       onTap: onPressed,
       child: Padding(
-        padding: EdgeInsetsGeometry.symmetric(vertical: MyAppSizes.spaceBtwItems / 1.5),
+        padding: EdgeInsetsGeometry.symmetric(
+          vertical: MyAppSizes.spaceBtwItems / 1.5,
+        ),
         child: Row(
           children: [
-            Expanded(flex: 3, child: Text(title, style: Theme.of(context).textTheme.bodySmall, overflow: TextOverflow.ellipsis,),),
+            Expanded(
+              flex: 3,
+              child: Text(
+                title,
+                style: Theme.of(context).textTheme.bodySmall,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
 
-            Expanded(flex: 5, child: Text(value, style: Theme.of(context).textTheme.bodyMedium, overflow: TextOverflow.ellipsis,),),
+            Expanded(
+              flex: 5,
+              child: Text(
+                value,
+                style: Theme.of(context).textTheme.bodyMedium,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
 
-            Expanded(child: Icon(icon, size: 18,),),
+            Expanded(child: Icon(icon, size: 18)),
           ],
         ),
-
       ),
     );
   }

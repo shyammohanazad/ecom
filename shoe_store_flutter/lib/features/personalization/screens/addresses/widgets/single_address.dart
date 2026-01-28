@@ -16,24 +16,49 @@ class MySingleAddress extends StatelessWidget {
     return MyRoundedCountainer(
       width: double.infinity,
       showBorder: true,
-      backgroundColor:selectedAddress ? MyAppColors.primaryColor.withValues(alpha: 0.5) : Colors.transparent,
-      borderColor: selectedAddress ? Colors.transparent : dark ? MyAppColors.darkerGrey : MyAppColors.grey,
+      backgroundColor: selectedAddress
+          ? MyAppColors.primaryColor.withValues(alpha: 0.5)
+          : Colors.transparent,
+      borderColor: selectedAddress
+          ? Colors.transparent
+          : dark
+          ? MyAppColors.darkerGrey
+          : MyAppColors.grey,
       margin: EdgeInsets.only(bottom: MyAppSizes.spaceBtwItems),
       child: Stack(
         children: [
-          Positioned(child: Icon(selectedAddress ? Iconsax.tick_circle5 : null,
-          color: selectedAddress ? dark ? MyAppColors.lightGrey : MyAppColors.containerDark : null,
-          ),),
+          Positioned(
+            child: Icon(
+              selectedAddress ? Iconsax.tick_circle5 : null,
+              color: selectedAddress
+                  ? dark
+                        ? MyAppColors.lightGrey
+                        : MyAppColors.containerDark
+                  : null,
+            ),
+          ),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('Shyam Gupta', maxLines: 1, overflow: TextOverflow.ellipsis, style: Theme.of(context).textTheme.titleLarge,),
-              SizedBox(height: MyAppSizes.sm / 2,),
-              Text('(+123) 456 7890', maxLines: 1, overflow: TextOverflow.ellipsis,),
-              SizedBox(height:MyAppSizes.sm / 2 ,),
-              Text('a2356 Shyam Gupta, South Liana, MAine, 87665, USA', softWrap: true,)
+              Text(
+                'Shyam Gupta',
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: Theme.of(context).textTheme.titleLarge,
+              ),
+              SizedBox(height: MyAppSizes.sm / 2),
+              Text(
+                '(+123) 456 7890',
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+              SizedBox(height: MyAppSizes.sm / 2),
+              Text(
+                'a2356 Shyam Gupta, South Liana, MAine, 87665, USA',
+                softWrap: true,
+              ),
             ],
-          )
+          ),
         ],
       ),
     );

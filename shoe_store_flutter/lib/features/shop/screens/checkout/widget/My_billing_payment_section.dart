@@ -14,21 +14,30 @@ class MyPaymentMethodsSection extends StatelessWidget {
     final dark = MyAppHelperFunctions.isDarkMode(context);
     return Column(
       children: [
-        MyAppSectionHeading(headingText: 'Payment Method', buttonTitle: 'change', onPressed: (){},),
-      SizedBox(height: MyAppSizes.spaceBtwItems / 2,),
+        MyAppSectionHeading(
+          headingText: 'Payment Method',
+          buttonTitle: 'change',
+          onPressed: () {},
+        ),
+        SizedBox(height: MyAppSizes.spaceBtwItems / 2),
         Row(
           children: [
             MyRoundedCountainer(
               width: 60,
               height: 35,
-              backgroundColor: dark ? MyAppColors.containerLight : MyAppColors.white,
+              backgroundColor: dark
+                  ? MyAppColors.containerLight
+                  : MyAppColors.white,
               padding: EdgeInsets.all(MyAppSizes.sm),
-              child: Image(image: AssetImage(MyAppImageStrings.paytm), fit: BoxFit.contain,),
+              child: Image(
+                image: AssetImage(MyAppImageStrings.paytm),
+                fit: BoxFit.contain,
+              ),
             ),
-            SizedBox(width: MyAppSizes.spaceBtwItems / 2,),
-            Text('Paypal', style: Theme.of(context).textTheme.bodyLarge,)
+            SizedBox(width: MyAppSizes.spaceBtwItems / 2),
+            Text('Paypal', style: Theme.of(context).textTheme.bodyLarge),
           ],
-        )
+        ),
       ],
     );
   }

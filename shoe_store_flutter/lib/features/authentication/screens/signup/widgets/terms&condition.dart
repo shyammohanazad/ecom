@@ -4,16 +4,11 @@ import 'package:ecomm_store_app/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
 class TermsAndConditionsCheckBox extends StatelessWidget {
-  const TermsAndConditionsCheckBox({
-    super.key,
-   
-  });
-
-  
+  const TermsAndConditionsCheckBox({super.key});
 
   @override
   Widget build(BuildContext context) {
-     final dark = MyAppHelperFunctions.isDarkMode(context);
+    final dark = MyAppHelperFunctions.isDarkMode(context);
     return Row(
       children: [
         SizedBox(
@@ -30,16 +25,13 @@ class TermsAndConditionsCheckBox extends StatelessWidget {
               ),
               TextSpan(
                 text: MyAppTextStrings.privacyPolicy,
-                style: Theme.of(context).textTheme.bodyMedium!
-                    .apply(
-                      color: dark
-                          ? MyAppColors.white
-                          : MyAppColors.primaryColor,
-                      decoration: TextDecoration.underline,
-                      decorationColor: dark
-                          ? MyAppColors.white
-                          : MyAppColors.primaryColor,
-                    ),
+                style: Theme.of(context).textTheme.bodyMedium!.apply(
+                  color: dark ? MyAppColors.white : MyAppColors.primaryColor,
+                  decoration: TextDecoration.underline,
+                  decorationColor: dark
+                      ? MyAppColors.white
+                      : MyAppColors.primaryColor,
+                ),
               ),
               TextSpan(
                 text: MyAppTextStrings.and,
@@ -47,16 +39,13 @@ class TermsAndConditionsCheckBox extends StatelessWidget {
               ),
               TextSpan(
                 text: MyAppTextStrings.termsOfUse,
-                style: Theme.of(context).textTheme.bodyMedium!
-                    .apply(
-                      color: dark
-                          ? MyAppColors.white
-                          : MyAppColors.primaryColor,
-                      decoration: TextDecoration.underline,
-                      decorationColor: dark
-                          ? MyAppColors.white
-                          : MyAppColors.primaryColor,
-                    ),
+                style: Theme.of(context).textTheme.bodyMedium!.apply(
+                  color: dark ? MyAppColors.white : MyAppColors.primaryColor,
+                  decoration: TextDecoration.underline,
+                  decorationColor: dark
+                      ? MyAppColors.white
+                      : MyAppColors.primaryColor,
+                ),
               ),
             ],
           ),

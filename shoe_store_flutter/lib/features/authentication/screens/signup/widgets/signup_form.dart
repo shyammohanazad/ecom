@@ -11,8 +11,6 @@ class SignUpForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
-
     return Form(
       child: Column(
         children: [
@@ -102,8 +100,8 @@ class SignUpForm extends StatelessWidget {
             ),
           ),
           SizedBox(height: MyAppSizes.spaceBtwSections),
+
           // divider
-         
         ],
       ),
     );

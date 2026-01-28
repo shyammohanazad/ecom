@@ -1,4 +1,3 @@
-import 'package:ecomm_store_app/features/personalization/screens/profile/profile.dart';
 import 'package:ecomm_store_app/features/personalization/screens/settings/my_settings_screen.dart';
 import 'package:ecomm_store_app/features/shop/screens/home/shop_home.dart';
 import 'package:ecomm_store_app/features/shop/screens/store/my_store.dart';

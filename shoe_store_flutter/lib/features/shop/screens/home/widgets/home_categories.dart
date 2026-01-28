@@ -4,9 +4,7 @@ import 'package:flutter/material.dart';
 import '../../../../../utils/constants/image_strings.dart';
 
 class MyHomeCategories extends StatelessWidget {
-  const MyHomeCategories({
-    super.key,
-  });
+  const MyHomeCategories({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,9 +18,7 @@ class MyHomeCategories extends StatelessWidget {
           return MyAppVerticalImageText(
             image: MyAppImageStrings.shoeIcon,
             title: 'Shoes',
-            onTap: () {
-              
-            },
+            onTap: () {},
           );
         },
       ),
