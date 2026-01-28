@@ -1,0 +1,39 @@
+// Generated file - do not modify manually
+class MyProductAssets {
+  static const String product1 = 'assets/images/products/product1.png';
+  static const String product2 = 'assets/images/products/product10.png';
+  static const String product3 = 'assets/images/products/product102.png';
+  static const String product4 = 'assets/images/products/product11.png';
+  static const String product5 = 'assets/images/products/product12.png';
+  static const String product6 = 'assets/images/products/product121.png';
+  static const String product7 = 'assets/images/products/product122.png';
+  static const String product8 = 'assets/images/products/product13.png';
+  static const String product9 = 'assets/images/products/product132.png';
+  static const String product10 = 'assets/images/products/product15.jpg';
+  static const String product11 = 'assets/images/products/product152.jpg';
+  static const String product12 = 'assets/images/products/product16.jpg';
+  static const String product13 = 'assets/images/products/product162.jpg';
+  static const String product14 = 'assets/images/products/product17.jpg';
+  static const String product15 = 'assets/images/products/product172.jpg';
+  static const String product16 = 'assets/images/products/product18.png';
+  static const String product17 = 'assets/images/products/product182.png';
+  static const String product18 = 'assets/images/products/product19.png';
+  static const String product19 = 'assets/images/products/product192.png';
+  static const String product20 = 'assets/images/products/product2.png';
+  static const String product21 = 'assets/images/products/product20.png';
+  static const String product22 = 'assets/images/products/product202.png';
+  static const String product23 = 'assets/images/products/product21.png';
+  static const String product24 = 'assets/images/products/product22.png';
+  static const String product25 = 'assets/images/products/product3.png';
+  static const String product26 = 'assets/images/products/product32.png';
+  static const String product27 = 'assets/images/products/product5.jpg';
+  static const String product28 = 'assets/images/products/product52.jpg';
+  static const String product29 = 'assets/images/products/product6.jpg';
+  static const String product30 = 'assets/images/products/product62.jpg';
+  static const String product31 = 'assets/images/products/product7.jpg';
+  static const String product32 = 'assets/images/products/product72.jpg';
+  static const String product33 = 'assets/images/products/product8.png';
+  static const String product34 = 'assets/images/products/product82.png';
+  static const String product35 = 'assets/images/products/product9.png';
+  static const String product36 = 'assets/images/products/product92.png';
+}

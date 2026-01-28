@@ -1,0 +1,53 @@
+# flutter_native_splash:
+#   # Light Background color
+#   color: "#ebebe2"
+#   # Dark Background color
+#   color_dark: "#061925"
+#   # logo image for light background.
+#   image: assets/logos/logo2_light.png 
+#   # logo image for Dark background.
+#   image_dark: assets/logos/logo3_dark.png
+# # In case you are going to use app above android_12 then the code below should be written, so the app can also run on android_12
+#   android_12:
+#    # Light Background color
+#     color: "#ebebe2"
+#    # Dark Background color
+#     color_dark: "#061925"
+#    # logo image for light background.
+#     image: lassets/logos/logo2_light.png 
+#    # logo image for Dark background.
+#     image_dark: assets/logos/logo3_dark.png
+
+
+#   web: false 
+
+
+flutter_native_splash:
+  web: false
+  
+  color: "#ebebe2" 
+  color_dark: "#061925"
+  image:         assets/logos/logo2_light.png 
+  #image_dark:          assets/splash-invert.png
+  image_dark: assets/logos/logo3_dark.png
+
+  fullscreen: true                # default false
+  
+  android_12:
+    # background color
+    # color: "#42a5f5"
+    color: "#ebebe2" 
+    # color_dark: "#042a49"
+    color_dark: "#061925"  
+    image:         assets/logos/logo2_light.png
+    # image_dark: assets/images/logo/logo-splash2.png  
+    image_dark: assets/logos/logo3_dark.png
+
+    # center-logo background color
+    # icon_background_color: "#111111"
+    # icon_background_color_dark: "#eeeeee"
+
+    # branding:
+    # The branding image dimensions must be 800x320 px.
+    #branding:      assets/dart.png      
+    #branding_dark: assets/dart_dark.png
